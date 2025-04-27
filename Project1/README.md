@@ -7,7 +7,6 @@ This section isn’t required, but it can help people understand how your code i
 
 Here’s what your full `README.md` file might look like for the Task Manager project:
 
-```markdown
 # Task Manager
 
 ## Description
