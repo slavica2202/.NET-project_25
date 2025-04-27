@@ -1,0 +1,33 @@
+# Ignore build results
+bin/
+obj/
+
+# Ignore Visual Studio files and folders
+.vs/
+.vscode/
+.idea/
+
+# Ignore Project Evaluation files
+ProjectEvaluation/
+
+# Ignore Visual Studio files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+
+# Ignore environment files
+.env
+
+# Ignore compiled DLLs
+*.dll
+*.exe
+
+# Ignore package folders
+packages/
