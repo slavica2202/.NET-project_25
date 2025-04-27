@@ -1,0 +1,15 @@
+C:\Users\38160\.NET-project_25\Project1\bin\Debug\net9.0\Project1App.exe
+C:\Users\38160\.NET-project_25\Project1\bin\Debug\net9.0\Project1App.deps.json
+C:\Users\38160\.NET-project_25\Project1\bin\Debug\net9.0\Project1App.runtimeconfig.json
+C:\Users\38160\.NET-project_25\Project1\bin\Debug\net9.0\Project1App.dll
+C:\Users\38160\.NET-project_25\Project1\bin\Debug\net9.0\Project1App.pdb
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.AssemblyInfoInputs.cache
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.AssemblyInfo.cs
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.csproj.CoreCompileInputs.cache
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.sourcelink.json
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.dll
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\refint\Project1App.dll
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.pdb
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\Project1App.genruntimeconfig.cache
+C:\Users\38160\.NET-project_25\Project1\obj\Debug\net9.0\ref\Project1App.dll
