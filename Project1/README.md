@@ -1,12 +1,3 @@
-
-This section isn’t required, but it can help people understand how your code is organized.
-
----
-
-### Step 9: **Final README.md File Example**
-
-Here’s what your full `README.md` file might look like for the Task Manager project:
-
 # Task Manager
 
 ## Description
