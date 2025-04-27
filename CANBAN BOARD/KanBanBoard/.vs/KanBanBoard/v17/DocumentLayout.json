@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|c:\\users\\38160\\onedrive\\desktop\\c# and .net\\canban board\\kanbanboard\\kanbanboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|solutionrelative:kanbanboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|c:\\users\\38160\\onedrive\\desktop\\c# and .net\\canban board\\kanbanboard\\kanbanboard\\kanbanboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|solutionrelative:kanbanboard\\kanbanboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|c:\\users\\38160\\onedrive\\desktop\\c# and .net\\canban board\\kanbanboard\\kanbanboard\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00500352-E570-429C-967A-8239B6F57BAB}|KanBanBoard\\KanBanBoard.csproj|solutionrelative:kanbanboard\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KanbanBoard.cs",
+              "DocumentMoniker": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\KanbanBoard.cs",
+              "RelativeDocumentMoniker": "KanBanBoard\\KanbanBoard.cs",
+              "ToolTip": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\KanbanBoard.cs",
+              "RelativeToolTip": "KanBanBoard\\KanbanBoard.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:45:28.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\Task.cs",
+              "RelativeDocumentMoniker": "KanBanBoard\\Task.cs",
+              "ToolTip": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\Task.cs",
+              "RelativeToolTip": "KanBanBoard\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:44:21.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\Program.cs",
+              "RelativeDocumentMoniker": "KanBanBoard\\Program.cs",
+              "ToolTip": "C:\\Users\\38160\\OneDrive\\Desktop\\c# and .net\\CANBAN BOARD\\KanBanBoard\\KanBanBoard\\Program.cs",
+              "RelativeToolTip": "KanBanBoard\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:40:25.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
