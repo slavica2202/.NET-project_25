@@ -4,7 +4,7 @@ title: Slavitsa's CV
 ---
 
 # 👋 Hello, I'm Slavitsa 
-🌍 Blagorvgrad, Bulgaria  
+🌍 Blagoevgrad, Bulgaria  
 🎂 Feb 22, 2004 
 
 ## 📄 Professional Biography
