@@ -1,0 +1,140 @@
+﻿@page
+@model Project3_DailyPlannerWeb.Pages.IndexModel
+@{
+    ViewData["Title"] = "Daily Planner";
+}
+
+<h1>📝 My Daily Planner</h1>
+
+<!-- Color Picker Button -->
+<div class="color-picker-container">
+    <button class="color-picker">Change Color Theme</button>
+</div>
+
+<!-- Task Form -->
+<form method="post">
+    <input asp-for="NewTask.Title" placeholder="Task title" required />
+    <input asp-for="NewTask.Date" type="date" required />
+    <button type="submit">Add Task</button>
+</form>
+
+<hr />
+
+@if (Model.Tasks.Any())
+{
+    <ul>
+        @foreach (var task in Model.Tasks)
+        {
+            <li>
+                <strong>@task.Title</strong> on @task.Date.ToShortDateString()
+                <form method="post" asp-page-handler="Delete" asp-route-id="@task.Id" style="display:inline">
+                    <button type="submit">❌</button>
+                </form>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No tasks yet. 😊</p>
+}
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 My Daily Planner - Privacy Policy</p>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const dateInput = document.querySelector('input[type="date"]');
+        const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+        dateInput.value = today; // Set today's date as the default value
+    });
+
+    // Define color themes with more aesthetics for buttons, inputs, and other elements
+    const themes = [
+        {
+            background: '#ff7f50',  // Coral background
+            button: '#ff6f61',      // Warm button
+            buttonText: '#fff',     // Button text color
+            inputBorder: '#ff6f61', // Input border color
+            inputFocus: '#ff6347',  // Input focus color
+            hrColor: '#ff6f61'      // Horizontal rule color
+        },
+        {
+            background: '#f0e68c',  // Khaki background
+            button: '#ffd700',      // Gold button
+            buttonText: '#000',     // Button text color
+            inputBorder: '#ffd700', // Input border color
+            inputFocus: '#ff8c00',  // Input focus color
+            hrColor: '#ffd700'      // Horizontal rule color
+        },
+        {
+            background: '#98fb98',  // Pale green background
+            button: '#66cdaa',      // Medium aquamarine button
+            buttonText: '#fff',     // Button text color
+            inputBorder: '#66cdaa', // Input border color
+            inputFocus: '#20b2aa',  // Input focus color
+            hrColor: '#66cdaa'      // Horizontal rule color
+        },
+        {
+            background: '#afeeee',  // Pale turquoise background
+            button: '#48d1cc',      // Medium turquoise button
+            buttonText: '#fff',     // Button text color
+            inputBorder: '#48d1cc', // Input border color
+            inputFocus: '#00ced1',  // Input focus color
+            hrColor: '#48d1cc'      // Horizontal rule color
+        },
+        {
+            background: '#dda0dd',  // Plum background
+            button: '#ba55d3',      // Medium orchid button
+            buttonText: '#fff',     // Button text color
+            inputBorder: '#ba55d3', // Input border color
+            inputFocus: '#9932cc',  // Input focus color
+            hrColor: '#ba55d3'      // Horizontal rule color
+        }
+    ];
+
+    let currentThemeIndex = 0;
+
+    // Function to apply a color theme
+    function applyTheme(theme) {
+        // Apply body background
+        document.body.style.backgroundColor = theme.background;
+
+        // Apply button styles
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach(button => {
+            button.style.backgroundColor = theme.button;
+            button.style.color = theme.buttonText;
+            button.style.borderColor = theme.button;
+        });
+
+        // Apply input styles
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach(input => {
+            input.style.borderColor = theme.inputBorder;
+        });
+
+        // Apply input focus styles
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.style.borderColor = theme.inputFocus;
+                input.style.boxShadow = `0 0 5px ${theme.inputFocus}`;
+            });
+        });
+
+        // Apply horizontal rule color
+        document.querySelector('hr').style.borderColor = theme.hrColor;
+    }
+
+    // Event listener for the color picker button
+    document.querySelector('.color-picker').addEventListener('click', () => {
+        // Apply the next theme in the array
+        currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+        applyTheme(themes[currentThemeIndex]);
+    });
+
+    // Apply initial theme
+    applyTheme(themes[currentThemeIndex]);
+</script>
