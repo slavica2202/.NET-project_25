@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pomodoro Focus App";
+}
+
+<div class="container">
+    <h1>🍅 Pomodoro Focus App</h1>
+    <div id="timer">25:00</div>
+    <div class="buttons">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <div class="set-selector">
+        <label for="setCount">Choose your focus sets:</label>
+        <select id="setCount" onchange="setGoal()">
+            <option value="1">1 Set</option>
+            <option value="2">2 Sets</option>
+            <option value="3">3 Sets</option>
+            <option value="4">4 Sets</option>
+        </select>
+        <p id="setsRemaining" style="margin-top: 10px;">Sets remaining: —</p>
+    </div>
+
+
+    <p>Sessions completed today: <strong id="sessionCount">0</strong></p>
+   
+   <div class="quote-wrapper">
+    <div id="quoteBox" class="quote-style">
+        "Take a deep breath and trust the process. 🌷"
+    </div>
+        <button class="quote-btn" onclick="changeQuote()">Next ✨</button>
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="css/site.css" />
+<script src="js/pomodoro.js"></script>

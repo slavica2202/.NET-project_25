@@ -1,0 +1,135 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;  /* Slightly off-white background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Make sure content starts at the top */
+    min-height: 100vh;  /* Ensure the body takes full height */
+}
+
+/* Center the content */
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 2rem;  /* Added margin to ensure containers don't touch */
+    transition: transform 0.3s ease-out;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 1rem;
+}
+
+input, button {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;  /* Make inputs and buttons full width */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input focus style */
+input:focus, button:focus {
+    border-color: #ff6f61; /* Warm color on focus */
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /* Matching warm color focus shadow */
+}
+
+/* Button style */
+button {
+    background-color: #ff6f61; /* Warm color for buttons */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55a47; /* Darker shade on hover */
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background-color: #fff3e6; /* Light warm color for tasks */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+li:hover {
+    background-color: #ffe0cc; /* Slightly darker warm color on hover */
+    transform: scale(1.02);  /* Slight zoom effect for hover */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;  /* Make container more responsive on smaller screens */
+        padding: 1.5rem;  /* Reduce padding on smaller screens */
+    }
+
+    input, button {
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    li {
+        font-size: 0.9rem;  /* Slightly smaller font size */
+    }
+}
+
+/* Footer Style */
+footer {
+    font-size: 0.9rem;
+    color: #666;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Light shadow to separate footer */
+    transition: background-color 0.3s ease;
+}
+
+/* Color Picker for custom themes */
+.color-picker-container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.color-picker {
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.color-picker:hover {
+    background-color: #e55a47;
+}
