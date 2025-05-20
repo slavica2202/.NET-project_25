@@ -1,6 +1,4 @@
-# 👋 Welcome
+## 👋 Welcome / Добре дошли
 
-This repository contains my interactive CV
-
-📄 **View my full CV here**:  
+📄 **View my full CV here / Вижте моето CV тук**:  
 👉 [https://yourusername.github.io/your-repo-name/](https://slavica2202.github.io/.NET-project_25/)
