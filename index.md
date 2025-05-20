@@ -22,13 +22,13 @@ My goal is to combine programming and design to create visually engaging and fun
 ## 🔗 Projects  
 The goal of these assignments is to demonstrate my skills in .NET development through a professional GitHub portfolio, while applying good practices in code documentation, version control, and project presentation.
 
-- [✅ Project 1 – Task Manager](./Project1_TaskManager) 
+- [✅ Project 1 – Task Manager].NET-project_25/Project1_TaskManager/) 
 
-- [📋 Project 2 – KanBan Board](./Project2_KanBanBoard)  
+- [📋 Project 2 – KanBan Board](.NET-project_25/Project2_KanBanBoard)  
 
-- [🗓 Project 3 – Daily Planner Web App](./Project3_DailyPlannerWeb)  
+- [🗓 Project 3 – Daily Planner Web App](.NET-project_25/Project3_DailyPlannerWeb)  
 
-- [⏱ Project 4 – Pomodoro Focus App](./Project4_PomodoroFocusApp)  
+- [⏱ Project 4 – Pomodoro Focus App](.NET-project_25/Project4_PomodoroFocusApp/)  
 
 ## 📞 Contact
 - **Email:** [slavicamiladinova8@email.com]
