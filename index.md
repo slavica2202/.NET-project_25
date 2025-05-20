@@ -24,11 +24,11 @@ The goal of these assignments is to demonstrate my skills in .NET development th
 
 - [✅ Project 1 – Task Manager](https://github.com/slavica2202/.NET-project_25/tree/main/Project1_TaskManager)
 
-- [📋 Project 2 – KanBan Board](.NET-project_25/tree/main/Project2_KanBanBoard)  
+- [📋 Project 2 – KanBan Board](https://github.com/slavica2202/.NET-project_25/tree/main/Project2_KanBanBoard)  
 
-- [🗓 Project 3 – Daily Planner Web App](.NET-project_25/Project3_DailyPlannerWeb)  
+- [🗓 Project 3 – Daily Planner Web App](https://github.com/slavica2202/.NET-project_25/tree/main/Project3_DailyPlannerWeb) 
 
-- [⏱ Project 4 – Pomodoro Focus App](.NET-project_25/Project4_PomodoroFocusApp/)  
+- [⏱ Project 4 – Pomodoro Focus App](https://github.com/slavica2202/.NET-project_25/tree/main/Project4_PomodoroFocusApp)
 
 ## 📞 Contact
 - **Email:** [slavicamiladinova8@email.com]
