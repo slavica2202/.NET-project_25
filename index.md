@@ -1,10 +1,5 @@
----
-layout: default
-title: Slavitsa's CV 
----
-
 # 👋 Hello, I'm Slavitsa 
-🌍 Blagorvgrad, Bulgaria  
+🌍 Blagoevgrad, Bulgaria  
 🎂 Feb 22, 2004 
 
 ## 📄 Professional Biography
@@ -24,9 +19,16 @@ My goal is to combine programming and design to create visually engaging and fun
 ## 💼 Professional Experience
 *(Currently building experience through academic projects and self-initiated learning.)*
 
-## 🔗 Projects
-*(Selected coursework and personal projects, available upon request.)*
+## 🔗 Projects  
+The goal of these assignments is to demonstrate my skills in .NET development through a professional GitHub portfolio, while applying good practices in code documentation, version control, and project presentation.
+
+- [✅ Project 1 – Task Manager](https://github.com/slavica2202/.NET-project_25/tree/main/Project1_TaskManager)
+
+- [📋 Project 2 – KanBan Board](https://github.com/slavica2202/.NET-project_25/tree/main/Project2_KanBanBoard)  
+
+- [🗓 Project 3 – Daily Planner Web App](https://github.com/slavica2202/.NET-project_25/tree/main/Project3_DailyPlannerWeb) 
+
+- [⏱ Project 4 – Pomodoro Focus App](https://github.com/slavica2202/.NET-project_25/tree/main/Project4_PomodoroFocusApp)
 
 ## 📞 Contact
 - **Email:** [slavicamiladinova8@email.com]
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile) 
